@@ -3,7 +3,7 @@ package Lekcja3_1;
 import java.util.Scanner;
 
 public class Utils {
-    private final Scanner scanner = new Scanner(System.in);
+
 
     public String repeatInputUntilInRange(String inputString, int min_value, int max_value) {
         while (!isInputValidated(inputString, min_value, max_value)) {
@@ -47,6 +47,7 @@ public class Utils {
         }
     }
     public String inputFromUser() {
+        Scanner scanner= new Scanner(System.in);
         return scanner.nextLine();
     }
 

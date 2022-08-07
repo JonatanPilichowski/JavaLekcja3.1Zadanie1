@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8796b163-62cd-423c-af59-31369ae9ffb6" name="Changes" comment="Both programs working. GuessTheNumber &amp; CreateArray">
+    <list default="true" id="8796b163-62cd-423c-af59-31369ae9ffb6" name="Changes" comment="Texts improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lekcja3_1/CreateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lekcja3_1/CreateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lekcja3_1/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lekcja3_1/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Lekcja3_1.GuessTheNumber">
     <configuration name="CreateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lekcja3_1.CreateArray" />
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659877796836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Texts improvements">
+      <created>1659878741568</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659878741568</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +126,7 @@
     <MESSAGE value="Not working validation" />
     <MESSAGE value="Program GuessTheNumber working, core not refactored." />
     <MESSAGE value="Both programs working. GuessTheNumber &amp; CreateArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="Both programs working. GuessTheNumber &amp; CreateArray" />
+    <MESSAGE value="Texts improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Texts improvements" />
   </component>
 </project>
