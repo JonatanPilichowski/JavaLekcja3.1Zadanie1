@@ -7,7 +7,7 @@ public class CreateArray {
 
     public static void main(String[] args) {
         Utils utils = new Utils();
-        printMessage("To create the array insert whole number, which will be its size");
+        printMessage("To create the array insert whole number, which will be its size.");
         int size = utils.getNumber(utils.repeatInputUntilInRange(utils.inputFromUser(), 1, 50));
 
         printMessage("Insert whole numbers to fill the array of size: " + size);
@@ -32,24 +32,24 @@ public class CreateArray {
     private static float getArithmeticMean(int sumOfArray, int[] countedArray) {
         return (float) sumOfArray / countedArray.length;
     }
-    private static int getSum(int[] intArray) {
-        return Arrays.stream(intArray).sum();
+    private static int getSum(int[] countedArray) {
+        return Arrays.stream(countedArray).sum();
     }
-    private static int getMaxArrayValue(int[] intArray) {
-        return IntStream.of(intArray).max().orElse(0);
+    private static int getMaxArrayValue(int[] countedArray) {
+        return IntStream.of(countedArray).max().orElse(0);
     }
-    private static int getMaxArrayValue2(int[] numbers) {
-        int maxArrayValue2 = numbers[0];
-        for (int y : numbers) {
+    private static int getMaxArrayValue2(int[] countedArray) {
+        int maxArrayValue2 = countedArray[0];
+        for (int y : countedArray) {
             if (y > maxArrayValue2) {
                 maxArrayValue2 = y;
             }
         }
         return maxArrayValue2;
     }
-    private static int getSum2(int[] numbers) {
+    private static int getSum2(int[] countedArray) {
         int sum2 = 0;
-        for (int x : numbers) {
+        for (int x : countedArray) {
             sum2 += x;
         }
         return sum2;
